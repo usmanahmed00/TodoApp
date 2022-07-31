@@ -23,9 +23,9 @@ class TodoListCellView : UITableViewCell {
             if let todo = todo {
                 self.textLabel?.text = todo.task
                 if todo.status {
-                    self.textLabel?.textColor = .red
+                    self.textLabel?.textColor = .systemRed
                 } else {
-                    self.textLabel?.textColor = .black
+                    self.textLabel?.textColor = .label
                 }
             }
         }
